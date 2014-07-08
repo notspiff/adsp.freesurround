@@ -1,0 +1,22 @@
+Source: xbmc-audiodsp-freesurround
+Priority: extra
+Maintainer: wsnipex <wsnipex@xbmc.org>
+Build-Depends: debhelper (>= 8.0.0), cmake, xbmc-addon-dev, libxbmcplatform-dev, xbmc-audio-dev, libfftw3-dev, libsamplerate0-dev, doxygen
+Standards-Version: 3.9.2
+Section: libs
+Homepage: http://xbmc.org
+
+Package: xbmc-audiodsp-freesurround
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Audio DSP freesurround addon for XBMC
+ Xbmc freesurround audio DSP addon
+
+Package: xbmc-audiodsp-freesurround-dbg
+Section: debug
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: debug symbols for Audio DSP freesurround addon for XBMC
+ contains the debug symbols for the Xbmc freesurround audio DSP addon
+
